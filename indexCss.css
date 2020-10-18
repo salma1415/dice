@@ -1,0 +1,49 @@
+body{
+    background-color: #790c5a;
+
+}
+.continer , .win{
+  background-color: #f1d4d4;
+  width: 60%;
+  padding-top: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+img{
+  width: 200px;
+}
+.player1{
+  display: inline;
+  float: left;
+  padding: 20px;
+}
+
+.player2{
+  display: inline;
+  float: right;
+  padding: 20px;
+}
+.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #690869;
+  font-size: 20px;
+  background: #ccd5db;
+  padding: 10px 20px 10px 20px;
+  border: solid #640366 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #e7c1e8);
+  background-image: -moz-linear-gradient(top, #f0f0f0, #e7c1e8);
+  background-image: -ms-linear-gradient(top, #f0f0f0, #e7c1e8);
+  background-image: -o-linear-gradient(top, #f0f0f0, #e7c1e8);
+  background-image: linear-gradient(to bottom, #f0f0f0, #e7c1e8);
+  text-decoration: none;
+}
